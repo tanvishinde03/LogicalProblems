@@ -10,7 +10,7 @@ namespace LogicalProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1. Fibonacci Series");
+            Console.WriteLine("1. Fibonacci Series \n 2. PerfectNum 3. PrimeNum \n");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -28,6 +28,10 @@ namespace LogicalProblems
                 case 3:
                     PrimeNum Obj = new PrimeNum();
                     Obj.Prime();
+                    break;
+                case 4:
+                    ReverseNum obJ = new ReverseNum();
+                    obJ.Display();
                     break;
         }
             Console.ReadLine();

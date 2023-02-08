@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProblems
 {
-    internal class Fibonacci
+    public class Fibonacci
     {
 
         public void Displayfibonacci()
