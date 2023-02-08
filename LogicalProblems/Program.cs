@@ -21,6 +21,10 @@ namespace LogicalProblems
                     fibonacci.Displayfibonacci();
                     break;
 
+                case 2:
+                    PerfectNum obj = new PerfectNum();
+                    obj.checkperfectnumber();
+                    break;
 
             }
             Console.ReadLine();
