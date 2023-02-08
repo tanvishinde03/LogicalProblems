@@ -25,8 +25,11 @@ namespace LogicalProblems
                     PerfectNum obj = new PerfectNum();
                     obj.checkperfectnumber();
                     break;
-
-            }
+                case 3:
+                    PrimeNum Obj = new PrimeNum();
+                    Obj.Prime();
+                    break;
+        }
             Console.ReadLine();
         }
     }
